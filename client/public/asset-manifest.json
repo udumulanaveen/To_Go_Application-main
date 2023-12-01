@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a00e34cf.css",
+    "main.js": "/static/js/main.9a58535d.js",
+    "static/media/card.svg": "/static/media/card.33b1a2d415fd97c98ab49f39e1f338a7.svg",
+    "static/media/toGoBoy.svg": "/static/media/toGoBoy.c265e681b022c03326fa091a76a34764.svg",
+    "static/media/user.svg": "/static/media/user.da0c3652588b208f77264dbf6ed0fcd6.svg",
+    "static/media/logo.svg": "/static/media/logo.f47534eb7a4ee81b51066f582362adc1.svg",
+    "static/media/location-icon.svg": "/static/media/location-icon.95a41331766081700d16fea30dec146b.svg",
+    "static/media/send.svg": "/static/media/send.659ba5092a481ad54c95e07b710c58e3.svg",
+    "static/media/delivery-executive.svg": "/static/media/delivery-executive.0430f299a44bd948f61c980cb4bbb3dd.svg",
+    "static/media/reward.svg": "/static/media/reward.64ee6360b83d86b7ff1bc6feb61d2caf.svg",
+    "static/media/order-management.svg": "/static/media/order-management.b9cdacc40ddfd279baf7eb08f2bbe711.svg",
+    "static/media/payment.svg": "/static/media/payment.74bdd9ca811728ffbc5c0847ad2b2e33.svg",
+    "static/media/customer-management.svg": "/static/media/customer-management.6d8937be37ba9ebada462cae81a71780.svg",
+    "static/media/pencil.svg": "/static/media/pencil.6183a258d7f1e316b9c3aca57c454a05.svg",
+    "static/media/complaints.svg": "/static/media/complaints.3f6a3fcca0a7558fb49d1649063bd7e6.svg",
+    "index.html": "/index.html",
+    "main.a00e34cf.css.map": "/static/css/main.a00e34cf.css.map",
+    "main.9a58535d.js.map": "/static/js/main.9a58535d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a00e34cf.css",
+    "static/js/main.9a58535d.js"
+  ]
+}

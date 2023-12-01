@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+body {
+  font-family: "Inter";
+  min-height: 80vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+}
+
+.text-themed {
+  color: #663399;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.nav-list {
+  display: inline-flex;
+}
+
+.nav-list li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-list li a {
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 126px;
+  color: #663399;
+}
+
+.cp-right {
+  display: flex;
+  position: fixed;
+  font-size: 12px;
+  bottom: 0;
+  color: #B0B0B0;
+  left: 10px;
+  padding: 10px;
+  padding-right: 55%;
+  z-index: 500;
+  background-color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.btn {
+  border-radius: 30px;
+  background: #663399;
+  min-width: 200px;
+  min-height: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.btn:hover {
+  border: 2px solid #663399;
+  background-color: #FFFFFF;
+}
+
+.secondary {
+  border-radius: 30px;
+  background: #F0F0F0;
+  color: #fff;
+  color: #663399;
+}
+
+.header .actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.todoBoyImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 600px;
+}
+
+.wrapper {
+  padding-top: 200px;
+  margin: 0 60px;
+  min-height: 100vh;
+}
+
+.home-content {
+  overflow: hidden;
+}
+
+.home-content h3 {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 64px;
+  color: #663399;
+}
+
+.home-content p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  color: #505050;
+}
+
+.about-content h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: left;
+  border-bottom: 1px solid #663399;
+  padding-bottom: 20px;
+  color: #663399;
+  margin-bottom: 30px;
+}
+
+.contact-content h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  border-bottom: 1px solid #663399;
+  padding-bottom: 20px;
+  color: #663399;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-size: 16px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  color: #000000;
+  margin: auto;
+}
+
+.contact-content p {
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+}
+
+.send {
+  right: 0;
+  bottom: 0;
+  background: none;
+  border: none;
+}
+
+.dashboard-container .nav-holder {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #663399;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.dashboard-container .nav-holder img {
+  height: 190px;
+  width: 180px;
+}
+
+.dashboard-container .nav-holder {
+  margin: 0 auto;
+}
+
+.dashboard-container {
+  color: #663399;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+}
+
+.dashboard-container a {
+  text-decoration: none;
+}
+
+.carry-btn {
+  position: absolute;
+  right: 280px;
+  z-index: 999;
+  bottom: 425px;
+}
+
+
+.customer-management .profile {
+  height: 200px;
+  border-top: 1px solid #663399;
+  border-bottom: 1px solid #663399;
+  align-items: center;
+}
+
+.customer-management p {
+  margin-bottom: 0;
+}
+
+.breadscrumb {
+  color: #663399;
+  display: flex;
+}
+
+.breadscrumb a {
+  color: #663399;
+}
+
+.breadscrumb a:last-of-type {
+  text-decoration: none;
+}
+
+.f600 {
+  font-weight: 600;
+}
+
+._loading_overlay_overlay {
+  height: 100vh;
+}
+
+.login h4 {
+  color: #663399;
+}
+
+.login p {
+  color: #6F7588;
+}
+
+.red {
+  color: #FF5353;
+}
+
+label {
+  color: #663399;
+  font-size: 18px;
+}
+
+.form-control {
+  height: 48px;
+}
+
+.link-like {
+  border: none;
+  color: #663399;
+  text-decoration: underline;
+  background: none;
+}
+
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #663399;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+}
+
+.plain-btn {
+  background: none;
+  color: #663399;
+  border: none;
+  text-decoration: none;
+}
+
+.disclaimer {
+  color: #9FA3AF;
+  font-size: 14px;
+}
+
+.make-order label {
+  color: #6F7588;
+}
+
+.invoice-row {
+  color: #0F1938;
+  border-bottom: 2px solid #663399;
+}
+
+.invoice-row:last-of-type {
+  border-bottom: none;
+}
+
+.payment-modal h4 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.62);
+}
+
+.payment-modal h6 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.62);
+  color: #663399;
+}
+
+.payment-modal label {
+  font-size: 12px;
+  color: #000000;
+}
+
+.payment-modal .form-control {
+  height: inherit;
+}
+
+.f10 {
+  font-size: 10px;
+}
+
+thead {
+  background: #663399 !important;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table {
+  width: 70%;
+  font-size: 10px;
+  z-index: 9999;
+}
+
+.themed-border {
+  border-bottom: 2px solid #663399;
+}
+
+.card-detail span {
+  font-size: 33px;
+}
+
+.order-detail-modal {
+  font-size: 80%;
+}
+
+.update-profile p {
+  margin: 25px 0;
+}
+
+.update-profile span {
+  color: #663399;
+}
+
+.edit-toggle{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+}
+
+.view-bd p{
+  margin: 22px 0;
+}
